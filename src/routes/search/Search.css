@@ -70,7 +70,7 @@
 .buttonContainer {
     background-color: #ffffff;
     border-radius: 80px;
-    border: 1px solid #ff5a5f;
+    border: 1px solid #6818ca;
     box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.14);
     color: #484848;
     float: left ;
@@ -86,9 +86,9 @@
 }
 
 .filterButton,.filterButton:hover, .filterButton:focus  {
-  color: #ff5a5f;
+  color: #6818ca;
   text-decoration: none;
-  border-right: 1px solid #ff5a5f;
+  border-right: 1px solid #6818ca;
 }
 
 .filterButton:last-child {

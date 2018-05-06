@@ -13,8 +13,8 @@
 }
 
 .button {
-  border-color: #ff7e82;
-  background-color: #ff7e82;
+  border-color: #8f46e9;
+  background-color: #8f46e9;
   color: #fff;
   font-size: 14px;
   font-weight: bold;
@@ -30,14 +30,14 @@
 }
 
 .btnPrimary {
-    border-color: #ff5a5f;
-    background-color: #ff5a5f;
+    border-color: #6818ca;
+    background-color: #6818ca;
     color: #fff;
 }
 
 .btnPrimary:hover, .btnPrimary:focus, .btnPrimary:active,
 .btnPrimary:active:hover, .btnPrimary:active:focus {
-  border-color: #ff7e82;
-  background-color: #ff7e82;
+  border-color: #8f46e9;
+  background-color: #8f46e9;
   color: #fff;
 }

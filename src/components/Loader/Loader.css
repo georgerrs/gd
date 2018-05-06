@@ -2,7 +2,7 @@
 
 .saving{
   font-size: 18px;
-  color: #008489;
+  color: #00ced6;
 }
 
 .savingDots{
@@ -14,7 +14,7 @@
   animation-duration: 1.4s;
   animation-iteration-count: infinite;
   animation-fill-mode: both;
-  color: #008489;
+  color: #00ced6;
 }
 
 .saving span:nth-child(2){
@@ -47,7 +47,7 @@
 }
 
 .iconColor{
-  color: #ff5a5f;
+  color: #6818ca;
   font-size: 48px;
 }
 

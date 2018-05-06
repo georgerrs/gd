@@ -72,11 +72,11 @@ a:hover, a:focus, a:visited, a:active{
 .exitToggle{
   float: right !important;
   font-size: 19px;
-  color: #008489;
+  color: #00ced6;
 }
 
 .exitText{
-  color: #008489;
+  color: #00ced6;
 }
 
 .brandBorder{

@@ -121,7 +121,7 @@ font-size: 16px;
   line-height: 1;
   font-weight: normal;
   font-style: normal;
-  color: #008489;
+  color: #00ced6;
   display: block;
   float: right;
 }
@@ -131,8 +131,8 @@ font-size: 16px;
 }
 
 .button {
-  border-color: #ff7e82;
-  background-color: #ff7e82;
+  border-color: #8f46e9;
+  background-color: #8f46e9;
   color: #fff;
   font-size: 14px;
 }
@@ -147,8 +147,8 @@ font-size: 16px;
 }
 
 .btnPrimary {
-    border-color: #ff5a5f;
-    background-color: #ff5a5f;
+    border-color: #6818ca;
+    background-color: #6818ca;
     color: #fff;
 }
 
@@ -158,8 +158,8 @@ font-size: 16px;
 
 .btnPrimary:hover, .btnPrimary:focus, .btnPrimary:active,
 .btnPrimary:active:hover, .btnPrimary:active:focus {
-  border-color: #ff7e82 !important;
-  background-color: #ff7e82 !important;
+  border-color: #8f46e9 !important;
+  background-color: #8f46e9 !important;
   color: #fff;
 }
 
@@ -339,13 +339,13 @@ font-size: 16px;
 }
 
 a{
-  color: #008489;
+  color: #00ced6;
   text-decoration: none;
 
 }
 
 a:hover{
-  color: #008489;
+  color: #00ced6;
   cursor: pointer;
 }
 

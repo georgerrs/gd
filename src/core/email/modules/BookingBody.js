@@ -28,8 +28,8 @@ export default (props) => {
     fontSize: '14px',
     whiteSpace: 'nowrap',
     background: '#ffffff',
-    borderColor: '#ff5a5f',
-    backgroundColor: '#ff5a5f',
+    borderColor: '#6818ca',
+    backgroundColor: '#6818ca',
     color: '#ffffff',
     borderTopWidth: '1px',
 

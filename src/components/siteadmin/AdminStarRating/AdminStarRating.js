@@ -42,7 +42,7 @@ class AdminStarRating extends React.Component {
             starCount={5}
             editing={editing}
             value={value}
-            starColor={`#008489`}
+            starColor={`#00ced6`}
             emptyStarColor={`#767676`}
             onStarClick={this.onStarClick}
           />

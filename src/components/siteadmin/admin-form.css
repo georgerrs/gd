@@ -19,8 +19,8 @@
 
 .button {
 
-	  border-color: #ff7e82;
-    background-color: #ff7e82;
+	  border-color: #8f46e9;
+    background-color: #8f46e9;
     color: #fff;
     float: right;
     font-size: 16px;
@@ -36,8 +36,8 @@
 }
 
 .btnPrimary {
-    border-color: #ff5a5f;
-    background-color: #ff5a5f;
+    border-color: #6818ca;
+    background-color: #6818ca;
     color: #fff;
 }
 
@@ -48,21 +48,21 @@
 
 .btnPrimary:hover, .btnPrimary:focus, .btnPrimary:active,
 .btnPrimary:active:hover, .btnPrimary:active:focus {
-  border-color: #ff7e82;
-  background-color: #ff7e82;
+  border-color: #8f46e9;
+  background-color: #8f46e9;
   color: #fff;
 }
 
 .btnPrimaryBorder {
-    border-color: #ff5a5f;
-    color: #ff5a5f;
+    border-color: #6818ca;
+    color: #6818ca;
     background-color: #fff;
 }
 
 .btnPrimaryBorder:hover, .btnPrimaryBorder:focus, .btnPrimaryBorder:active,
 .btnPrimaryBorder:active:hover, .btnPrimaryBorder:active:focus {
-  border-color: #ff7e82;
-  color: #ff7e82;
+  border-color: #8f46e9;
+  color: #8f46e9;
   background-color: #fff;
 }
 
@@ -136,7 +136,7 @@
 }
 
 .modalCaptionLink {
-    color: #008489;
+    color: #00ced6;
 }
 
 .modalCaptionLinkLarge {
@@ -145,6 +145,6 @@
 }
 
 .modalCaptionLink:hover, .modalCaptionLink:focus {
-    color: #008489;
+    color: #00ced6;
     text-decoration: underline;
 }

@@ -251,13 +251,13 @@
 }
 
 a{
-  color: #008489;
+  color: #00ced6;
   text-decoration: none;
 
 }
 
 a:hover{
-  color: #008489;
+  color: #00ced6;
   cursor: pointer;
 }
 
@@ -281,7 +281,7 @@ a:hover{
 }
 
 .iconColor{
-  color: #008489;
+  color: #00ced6;
 }
 
 @media screen and (max-width: 640px) {
@@ -338,8 +338,8 @@ a:hover{
   font-size: 10px;
   line-height: 13px;
   color: #fff;
-  border: 1px solid #ff5a5f;
-  background: #ff5a5f;
+  border: 1px solid #6818ca;
+  background: #6818ca;
 }
 
 

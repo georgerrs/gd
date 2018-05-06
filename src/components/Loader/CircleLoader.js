@@ -25,7 +25,7 @@ class CircleLoader extends Component {
         return (
             <div className={s.textCenter}>
                 <MDSpinner
-		            singleColor={"#ff5a5f"}
+		            singleColor={"#6818ca"}
 		            size={48}
 		        />
             </div>

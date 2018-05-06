@@ -158,7 +158,7 @@ select::-ms-expand {
 	
 	.rentAllHeader.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover,
 	.rentAllHeader.navbar-default .navbar-nav>li>form>button:focus, .navbar-default .navbar-nav>li>form>button:hover {
-		color: #008489;
+		color: #00ced6;
 	}
 
 	.ListHeader.navbar-default .navbar-toggle:focus, .ListHeader.navbar-default .navbar-toggle:hover {
@@ -304,7 +304,7 @@ select::-ms-expand {
     border-bottom: 1px;
     background: none;
     color: #767676;
-	box-shadow: 0 1px 0 #008489;
+	box-shadow: 0 1px 0 #00ced6;
     border-radius: 0px;
 }
 
@@ -451,7 +451,7 @@ select::-ms-expand {
 	font-size: 14px !important;
 }
 .geosuggest__item:hover, .geosuggest__item:focus, .geosuggest__item--active{
-    background: #ff7e82 !important;
+    background: #8f46e9 !important;
     color: #FFF !important;
 }
 .SearchPageForm .panel-body {

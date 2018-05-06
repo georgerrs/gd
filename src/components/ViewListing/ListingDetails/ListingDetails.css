@@ -2,13 +2,13 @@
 
 .sectionCaptionLink {
   font-size: 14px;
-  color: #008489;
+  color: #00ced6;
   font-weight: bold;
   cursor: pointer;
   text-transform: none;
 }
 .sectionCaptionLink:hover ,.sectionCaptionLink:active, .sectionCaptionLink:focus   {
-  color: #008489;
+  color: #00ced6;
   font-weight: bold;
   cursor: pointer;
   text-transform: none;

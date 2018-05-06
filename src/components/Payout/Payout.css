@@ -53,11 +53,11 @@
 
 .textSpace{
   margin-left: 10px;
-  color: #ff5a5f;
+  color: #6818ca;
 }
 
 .textSpace:hover{
-  color: #ff5a5f;
+  color: #6818ca;
 }
 
 .radioText{
@@ -103,13 +103,13 @@
 
 
 a{
-  color: #008489;
+  color: #00ced6;
   text-decoration: none;
 
 }
 
 a:hover, a:focus, a:active{
-  color: #008489;
+  color: #00ced6;
   cursor: pointer;
   text-decoration: none;
 }
@@ -122,8 +122,8 @@ a:hover, a:focus, a:active{
 }
 
 .button {
-  border-color: #ff7e82;
-  background-color: #ff7e82;
+  border-color: #8f46e9;
+  background-color: #8f46e9;
   color: #fff;
   font-size: 14px;
   white-space: normal;
@@ -139,8 +139,8 @@ a:hover, a:focus, a:active{
 }
 
 .btnPrimary {
-    border-color: #ff5a5f;
-    background-color: #ff5a5f;
+    border-color: #6818ca;
+    background-color: #6818ca;
     color: #fff;
 }
 
@@ -150,21 +150,21 @@ a:hover, a:focus, a:active{
 
 .btnPrimary:hover, .btnPrimary:focus, .btnPrimary:active,
 .btnPrimary:active:hover, .btnPrimary:active:focus {
-  border-color: #ff7e82 !important;
-  background-color: #ff7e82 !important;
+  border-color: #8f46e9 !important;
+  background-color: #8f46e9 !important;
   color: #fff;
 }
 
 .btnPrimaryBorder {
-    border-color: #ff5a5f;
-    color: #ff5a5f;
+    border-color: #6818ca;
+    color: #6818ca;
     background-color: #fff;
 }
 
 .btnPrimaryBorder:hover, .btnPrimaryBorder:focus, .btnPrimaryBorder:active,
 .btnPrimaryBorder:active:hover, .btnPrimaryBorder:active:focus {
-  border-color: #ff7e82;
-  color: #ff7e82;
+  border-color: #8f46e9;
+  color: #8f46e9;
   background-color: #fff;
 }
 

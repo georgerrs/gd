@@ -29,7 +29,7 @@ class BookingConfirmationGuest extends Component {
 	    };
 			
 			const linkText = {
-	      color: '#6818ca',
+	      color: '#3b5998	',
 	      fontSize: '16px',
 	      textDecoration: 'none',
 	      cursor:'pointer',

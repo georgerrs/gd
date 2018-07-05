@@ -120,8 +120,8 @@ a:hover{
 }
 
 .btnPrimary {
-   border-color: #6818ca;
-   background-color: #6818ca;
+   border-color: #3b5998	;
+   background-color: #3b5998	;
    color: #fff;
 }
 
@@ -134,14 +134,14 @@ a:hover{
 
 .btnPrimary:hover, .btnPrimary:focus, .btnPrimary:active,
 .btnPrimary:active:hover, .btnPrimary:active:focus {
-  border-color: #6818ca;
-  background-color: #6818ca;
+  border-color: #3b5998	;
+  background-color: #3b5998	;
   color: #fff;
 }
 
 .btnPrimaryBorder {
-   border-color: #6818ca;
-   color: #6818ca;
+   border-color: #3b5998	;
+   color: #3b5998	;
    background-color: #fff;
 }
 

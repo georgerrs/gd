@@ -46,7 +46,7 @@ class Item extends Component {
                                 handleClick={handleClick}
                                 show={show}
                                 label={buttonLabel}
-                                spinnerColor={"#6818ca"}
+                                spinnerColor={"#3b5998	"}
                             />
                         </Col>
                     }

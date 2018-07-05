@@ -1,153 +1,120 @@
 @import '../../components/variables.css';
 
 .root {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .container {
   margin: 0 auto;
-  padding: 0 0 40px;
-  max-width: 380px;
+  padding: 0;
+  max-width: var(--max-content-width);
+  margin-top: 0;
 }
 
-.lineThrough {
-  position: relative;
-  z-index: 1;
-  display: block;
-  margin: 12px 0px;
-  width: 100%;
-  color: #767676;
-  text-align: center;
-  font-size: 14px;
-}
-
-.lineThrough::before {
+/* Search page - RentAll **/
+.searchLoaderContainer {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  z-index: -1;
-  margin-top: -5px;
-  margin-left: -20px;
-  width: 40px;
-  height: 10px;
-  background-color: #fff;
-  content: '';
+  top: 30%;
+  left: 0;
+  right: 0;
 }
 
-.lineThrough::after {
-  position: absolute;
-  top: 49%;
-  z-index: -2;
-  display: block;
+.searchResultContainer {
+  /*position: fixed;*/
+  left: 0;
+  bottom: 0;
   width: 100%;
-  border-bottom: 1px solid #ddd;
-  content: '';
+  /*overflow-y: auto;*/
+  overflow-x: hidden;
+  z-index: 0;
 }
 
-.horizontalLineThrough {
-  position: relative;
-  z-index: 1;
-  display: block;
-  margin: 15px 0px;
+@media screen and (min-width: 641px) {
+  .searchResultContainer {
+    position: fixed;
+    top: 62px;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+}
+
+.searchMapContainer {
+  background-color: rgb(164, 221, 245);
   width: 100%;
-  color: #767676;
+  position: fixed;
+  right: 0;
+  left: auto;
+  bottom: 0;
+  top: 62px;
+}
+
+.mobileNavigation {
+  position: fixed;
+  bottom: 16px;
+  left: 0;
+  opacity: 1;
+  right: 0;
   text-align: center;
-  font-size: 14px;
+  transition-duration: 250ms;
+  transition-property: opacity;
+  transition-timing-function: ease-out;
+  z-index: 100;
+  display: none;
 }
 
-.formGroup {
-  margin-bottom: 6px;
+.buttonOuter {
+  display: inline-block;
 }
 
-.formSection {
-  overflow: hidden;
-}
-
-.noPadding {
-  padding: 0px;
-}
-
-.textAlignRight {
-  text-align: right;
-}
-
-.textAlignLeft {
-  text-align: left;
-}
-
-.modalCaptionLink {
-    color: #00ced6;
-    cursor: pointer;
-}
-
-.modalCaptionLinkLarge {
-  font-size: 16px;
-  line-height: 32px;
-}
-
-.modalCaptionLink:hover, .modalCaptionLink:focus {
-    color: #00ced6;
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-.button {
-  display: block;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 20px 16px;
-  width: 100%;
-  outline: 0;
-  border: 1px solid #373277;
-  border-radius: 4px;
-  background: #373277;
-  color: #fff;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  line-height: 1.3333333;
-  cursor: pointer;
-}
-
-.button:hover, .button:focus, .button:active{
-  text-decoration: none;
-}
-
-.btnPrimary {
-    border-color: #6818ca;
-    background-color: #6818ca;
-    color: #fff;
-}
-
-.btnPrimary:hover, .btnPrimary:focus, .btnPrimary:active,
-.btnPrimary:active:hover, .btnPrimary:active:focus {
-  border-color: #8f46e9;
-  background-color: #8f46e9;
-  color: #fff;
-}
-
-.btnPrimaryBorder {
-    border-color: #6818ca;
-    color: #6818ca;
-    background-color: #fff;
-}
-
-.btnPrimaryBorder:hover, .btnPrimaryBorder:focus, .btnPrimaryBorder:active,
-.btnPrimaryBorder:active:hover, .btnPrimaryBorder:active:focus {
-  border-color: #8f46e9;
-  color: #8f46e9;
+.buttonContainer {
   background-color: #fff;
-}
-
-.btnSmall {
-  padding: 5px 0px;
-}
-
-.captionText {
-  font-size: 16px;
+  border-radius: 80px;
+  border: 1px solid #3b5998;
+  box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.14);
   color: #484848;
-  margin: 15px 0px;
+  float: left;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  line-height: 1;
+  margin: 0;
+  overflow: hidden;
+  padding-bottom: 0;
+  padding-top: 0;
 }
 
+.filterButton,
+.filterButton:hover,
+.filterButton:focus {
+  color: #3b5998;
+  text-decoration: none;
+  border-right: 1px solid #3b5998;
+}
 
+.filterButton:last-child {
+  border: none;
+}
+
+@media screen and (min-width: 801px) {
+  .searchResultContainer {
+    width: 60%;
+    display: block;
+  }
+
+  .searchMapContainer {
+    display: block;
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .resultsBody {
+    display: block;
+  }
+
+  .mobileNavigation {
+    display: block;
+  }
+}

@@ -87,12 +87,17 @@ const messages = defineMessages({
   },
   about: {
     id: 'rentall.about',
-    defaultMessage: 'About',
+    defaultMessage: 'About Us',
     description: 'Menu item',
   },
   careers: {
     id: 'rentall.careers',
     defaultMessage: 'Careers',
+    description: 'Menu item',
+  },
+  howWeWork: {
+    id: 'rentall.howWeWork',
+    defaultMessage: 'How We Work',
     description: 'Menu item',
   },
   press: {

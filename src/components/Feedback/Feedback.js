@@ -26,32 +26,32 @@ class Feedback extends React.Component {
           <Row className={s.feedbackRow}>
             <Col xs={12} sm={4} md={4} lg={4}  className={s.feedbackBox}>
                 <div className={s.feedbackIcon}>
-                  <FontAwesome.FaPhone />
+                  <FontAwesome.FaBolt />
                 </div>
 
                 <div className={s.feedbackContent}>
-                  <label className={s.landingLabel}>24/7 customer support</label>
-                  <label className={s.landingCaption}>If you need help while traveling or hosting, contact us at our toll free number: 000 000 0000 000</label>
+                  <label className={s.landingLabel}>Simple and Easy Steps</label>
+                  <label className={s.landingCaption}>Nothing is worse than time being wasted, we provide quick steps for landlords when they are listing their property and save students plenty of time when are finding their perfect home </label>
                 </div>
             </Col>
 
              <Col xs={12} sm={4} md={4} lg={4} className={s.feedbackBox}>
                 <div className={s.feedbackIcon}>
-                  <FontAwesome.FaShield />
+                  <FontAwesome.FaHome />
                 </div>
                 <div className={s.feedbackContent}>
-                  <label className={s.landingLabel}>6,00,00,000 host guarantee</label>
-                  <label className={s.landingCaption}>Hosts are protected against property damages for up to 6,00,00,000. <a className={s.modalCaptionLink}> Learn more</a></label>
+                  <label className={s.landingLabel}>Earn from your home</label>
+                  <label className={s.landingCaption}>listing your property only opens opportunities for extra income, we guarantee a deposit and tenant in your home!</label>
                 </div>
             </Col>
 
             <Col xs={12} sm={4} md={4} lg={4} className={s.feedbackBox}>
                 <div className={s.feedbackIcon}>
-                  <FontAwesome.FaCheckSquareO/>
+                  <FontAwesome.FaShield/>
                 </div>
                 <div className={s.feedbackContent}>
-                  <label className={s.landingLabel}>  Verified ID</label>
-                  <label className={s.landingCaption}>We aim to build a trusted community by giving you more info when youre deciding who to host or stay with.</label>
+                  <label className={s.landingLabel}>  Verified Community</label>
+                  <label className={s.landingCaption}>Our aim is to create a trustworthy community for both of our users. It is at our best interest to provide a safe stay for our students, whilst providing our landlords peace of mind during this process..</label>
                 </div>
             </Col>
           </Row>

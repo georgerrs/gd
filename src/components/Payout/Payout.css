@@ -53,11 +53,11 @@
 
 .textSpace{
   margin-left: 10px;
-  color: #6818ca;
+  color: #3b5998	;
 }
 
 .textSpace:hover{
-  color: #6818ca;
+  color: #3b5998	;
 }
 
 .radioText{
@@ -139,8 +139,8 @@ a:hover, a:focus, a:active{
 }
 
 .btnPrimary {
-    border-color: #6818ca;
-    background-color: #6818ca;
+    border-color: #3b5998	;
+    background-color: #3b5998	;
     color: #fff;
 }
 
@@ -156,8 +156,8 @@ a:hover, a:focus, a:active{
 }
 
 .btnPrimaryBorder {
-    border-color: #6818ca;
-    color: #6818ca;
+    border-color: #3b5998	;
+    color: #3b5998	;
     background-color: #fff;
 }
 

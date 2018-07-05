@@ -52,8 +52,8 @@ class BookingConfirmationHost extends React.Component {
       fontSize: '18px',
       whiteSpace: 'nowrap',
       background: '#ffffff',
-      borderColor: '#6818ca',
-      backgroundColor: '#6818ca',
+      borderColor: '#3b5998	',
+      backgroundColor: '#3b5998	',
       color: '#ffffff',
       borderTopWidth: '1px',
 
@@ -94,7 +94,7 @@ class BookingConfirmationHost extends React.Component {
     }
 
     const linkText = {
-      color: '#6818ca',
+      color: '#3b5998	',
       fontSize: '18px',
       textDecoration: 'none',
       cursor:'pointer',

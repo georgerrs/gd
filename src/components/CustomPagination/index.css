@@ -55,14 +55,14 @@
   color: #666;
 }
 .rc-pagination-item:hover {
-  border-color: #6818ca;
+  border-color: #3b5998	;
 }
 .rc-pagination-item:hover a {
-  color: #6818ca;
+  color: #3b5998	;
 }
 .rc-pagination-item-active {
-  background-color: #6818ca;
-  border-color: #6818ca;
+  background-color: #3b5998	;
+  border-color: #3b5998	;
 }
 .rc-pagination-item-active a {
   color: #fff !important;

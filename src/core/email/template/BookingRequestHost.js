@@ -57,8 +57,8 @@ class BookingRequestHost extends React.Component {
       fontSize: '18px',
       whiteSpace: 'nowrap',
       background: '#ffffff',
-      borderColor: '#6818ca',
-      backgroundColor: '#6818ca',
+      borderColor: '#3b5998	',
+      backgroundColor: '#3b5998	',
       color: '#ffffff',
       borderTopWidth: '1px',
 

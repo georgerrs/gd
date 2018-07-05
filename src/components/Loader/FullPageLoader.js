@@ -25,7 +25,7 @@ class FullPageLoader extends React.Component {
 
     spinner(){
         return <MDSpinner
-                singleColor={"#6818ca"}
+                singleColor={"#3b5998	"}
                 size={48}
             />
     }

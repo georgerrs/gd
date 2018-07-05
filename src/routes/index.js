@@ -40,6 +40,7 @@ export default {
     require('./writeReview').default,
     require('./passwordVerification').default,
     require('./test').default,
+    require('./howWeWork').default,
    //document upload
 
    require('./documentVerification').default,

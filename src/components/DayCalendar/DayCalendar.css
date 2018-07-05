@@ -135,7 +135,7 @@
 
 .DayPicker-Day--today {
   /*color: #d0021b;*/
-  color: #6818ca;
+  color: #3b5998	;
   font-weight: 500;
 }
 
@@ -167,7 +167,7 @@
 .DayPicker-Day--selected:not(.DayPicker-Day--disabled):not(.DayPicker-Day--outside) {
   color: #FFF;
   /*background-color: #4A90E2;*/
-  background-color: #6818ca;
+  background-color: #3b5998	;
 }
 /** Max width 1024px **/
 @media screen and (max-width: 1024px) {

@@ -54,7 +54,7 @@ class Footer extends React.Component {
                 </Col>
 
                 <Col sm={3} mdOffset={1} md={2} lgOffset={1} lg={2} xsHidden className={cx(s.noPadding)}>
-                  <label className={s.landingLabel}>{siteName}</label>
+                  <label className={s.landingLabel}>StudentDome</label>
                   <ul className={s.listContainer}>
                     <li>
                       <Link to={'/about'} className={s.textLink} >
@@ -62,13 +62,41 @@ class Footer extends React.Component {
                       </Link>
                     </li>
                     <li>
-                      <Link to={'/careers'} className={s.textLink} >
-                        <FormattedMessage {...messages.careers} />
+                      <Link to={'/about'} className={s.textLink} >
+                      List Your Prop
+                      </Link>
+                    </li><li>
+                      <Link to={'/about'} className={s.textLink} >
+                        Blogs
+                      </Link>
+                    </li>
+                    </li><li>
+                      <Link to={'/about'} className={s.textLink} >
+                        Company Details
                       </Link>
                     </li>
                     <li>
-                      <Link to={'/press'} className={s.textLink} >
-                        <FormattedMessage {...messages.press} />
+                      <Link to={'/how-we-work'} className={s.textLink} >
+                        <FormattedMessage {...messages.howWeWork} />
+                      </Link>
+                    </li>
+                  </ul>
+                </Col>
+
+
+                <Col sm={3} mdOffset={1} md={2} lgOffset={1} lg={2} xsHidden className={cx(s.noPadding)}>
+                  <label className={s.landingLabel}>
+                    Help
+                  </label>
+                  <ul className={s.listContainer}>
+                    <li>
+                      <Link to={'/whyhost'} className={s.textLink} >
+                        Make an Enquiry
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to={'/hospitality'} className={s.textLink} >
+                      Terms and Conditions
                       </Link>
                     </li>
                     <li>
@@ -76,70 +104,25 @@ class Footer extends React.Component {
                         <FormattedMessage {...messages.policies} />
                       </Link>
                     </li>
-                    <li>
-                      <Link to={'/help'} className={s.textLink} >
-                        <FormattedMessage {...messages.help} />
-                      </Link>
-                    </li>
                   </ul>
                 </Col>
+
 
 
                 <Col sm={3} mdOffset={1} md={2} lgOffset={1} lg={2} xsHidden className={cx(s.noPadding)}>
-                  <label className={s.landingLabel}>
-                    <FormattedMessage {...messages.discover} />
-                  </label>
                   <ul className={s.listContainer}>
                     <li>
-                      <Link to={'/safety'} className={s.textLink} >
-                        <FormattedMessage {...messages.trustSafety} />
-                      </Link>
+                    Registered Company:10889174
                     </li>
                     <li>
-                      <Link to={'/travel'} className={s.textLink} >
-                        <FormattedMessage {...messages.travelCredit} />
-                      </Link>
+                    Student Dome Ltd, 20-22
                     </li>
                     <li>
-                      <Link to={'/citizen'} className={s.textLink} >{siteName}{' '}
-                        <FormattedMessage {...messages.citizen} />
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to={'/business'} className={s.textLink} >
-                        <FormattedMessage {...messages.businessTravel} />
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to={'/guide'} className={s.textLink} >
-                        <FormattedMessage {...messages.guidebooks} />
-                      </Link>
+                      Wenlock Road, N1 7GU.
                     </li>
                   </ul>
                 </Col>
 
-                <Col sm={3} mdOffset={1} md={2} lgOffset={1} lg={2} xsHidden className={cx(s.noPadding)}>
-                  <label className={s.landingLabel}>
-                    <FormattedMessage {...messages.hosting} />
-                  </label>
-                  <ul className={s.listContainer}>
-                    <li>
-                      <Link to={'/whyhost'} className={s.textLink} >
-                        <FormattedMessage {...messages.whyHost} />
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to={'/hospitality'} className={s.textLink} >
-                        <FormattedMessage {...messages.hospitality} />
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to={'/responsible-hosting'} className={s.textLink} >
-                        <FormattedMessage {...messages.responsibleHosting} />
-                      </Link>
-                    </li>
-                  </ul>
-                </Col>
               </Row>
 
               <Row className={s.copyrightSection}>
@@ -149,9 +132,7 @@ class Footer extends React.Component {
                   <span className={s.text}>© {siteName}.</span>
                 </Col>
                 <Col xs={6} sm={8} md={8} lg={8} className={s.noPadding}>
-                  <Link className={cx(s.textLink, s.pullRight, s.footerLink)} to={'/privacy'}>
-                    <FormattedMessage {...messages.termsPrivacy} />
-                  </Link>
+
                   {
                 instagram && <a href={instagram} target="_blank" className={cx(s.shareIcon, s.xsHidden)}>
                   <FontAwesome.FaInstagram />
@@ -180,7 +161,7 @@ class Footer extends React.Component {
 
 
 const mapState = state => ({
-  siteName: state.siteSettings.data.siteName,
+  
   facebook: state.siteSettings.data.facebookLink,
   twitter: state.siteSettings.data.twitterLink,
   instagram: state.siteSettings.data.instagramLink,

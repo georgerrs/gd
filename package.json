@@ -1,6 +1,6 @@
 {
   "name": "web",
-  "version": "0.0.0",
+  "version": "6.1.0",
   "private": true,
   "engines": {
     "node": ">=6.5",
@@ -162,7 +162,6 @@
     "postcss-pseudoelements": "^3.0.0",
     "postcss-selector-matches": "^2.0.5",
     "postcss-selector-not": "^2.0.0",
-    "pre-commit": "^1.2.2",
     "pre-git": "^3.17.1",
     "raw-loader": "^0.5.1",
     "react-addons-test-utils": "^15.4.2",
@@ -264,48 +263,29 @@
     ]
   },
   "scripts": {
-    "lint:js": "eslint src tools",
-    "lint:css": "stylelint \"src/**/*.{css,less,scss,sss}\"",
-    "lint:staged": "lint-staged",
-    "lint": "yarn run lint:js && yarn run lint:css",
-    "test": "mocha \"src/**/*.test.js\" --require babel-register --require test/setup.js",
-    "test:watch": "yarn run test -- --reporter min --watch",
-    "clean": "babel-node tools/run clean",
-    "copy": "babel-node tools/run copy",
-    "extractMessages": "babel-node tools/run extractMessages",
-    "bundle": "babel-node tools/run bundle",
-    "build": "babel-node tools/run build",
-    "build:stats": "yarn run build -- --release --analyse",
-    "deploy": "babel-node tools/run deploy",
-    "render": "babel-node tools/run render",
-    "serve": "babel-node tools/run runServer",
-    "start": "babel-node tools/run start",
-    "commit": "commit-wizard"
+    "test": "node-qunit *.js"
   },
   "release": {
     "analyzeCommits": "simple-commit-message"
   },
-  "scripts": {
-  "test": "node-qunit *.js"
-},
-"config": {
-  "pre-git": {
-    "allow-untracked-files": true,
-    "enabled": false,
-    "msg-pattern": "^(US|DE)\\d+ - .+",
-    "commit-msg": "simple",
-    "pre-commit": [
-      "grunt jshint"
-    ],
-    "post-commit": "git status",
-    "pre-push": [
-      "rm -rf node_modules",
-      "npm install",
-      "grunt build",
-      "grunt test"
-    ],
-    "post-checkout": "npm install",
-    "post-merge": "npm install"
+  "config": {
+    "pre-git": {
+      "allow-untracked-files": true,
+      "enabled": false,
+      "msg-pattern": "^(US|DE)\\d+ - .+",
+      "commit-msg": "simple",
+      "pre-commit": [
+        "grunt jshint"
+      ],
+      "post-commit": "git status",
+      "pre-push": [
+        "rm -rf node_modules",
+        "npm install",
+        "grunt build",
+        "grunt test"
+      ],
+      "post-checkout": "npm install",
+      "post-merge": "npm install"
+    }
   }
-}
 }
